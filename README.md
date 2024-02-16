@@ -115,10 +115,10 @@ This project includes different parts and levels of access that I will mention h
 <li>
     # Attention
    
-      ```
+      
       : (input string)
       >> back/Choice/...
-      ```
+      
 .
       Whenever you see ":" before the pointer, the program receives an input string from you and you cannot use commands or go back.
       But when you see ">>", the program is waiting for your commands.
