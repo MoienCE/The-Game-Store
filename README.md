@@ -1,13 +1,17 @@
-# Fariborz Game Store V2 
-[Documentation](https://docs.google.com/document/d/1OahsSH1X6MmyersdhQ8q5-EWvrjDK_4ZxnWIyzjKmF4/edit?usp=sharing)
+# Game Store
+[Persian Documentation](https://docs.google.com/document/d/1OahsSH1X6MmyersdhQ8q5-EWvrjDK_4ZxnWIyzjKmF4/edit?usp=sharing)
 
 <ul>
 This project includes different parts and levels of access that I will mention here:
+
+
 
 <li>
     **Guest**:
       The guest has the lowest level of access among all types of users. He can only visit the store, look at the details of games and accessories, read comments and votes, and find out about the developers of that game or accessory.
 </li>
+
+
 
 <li>
     **Normal User**:
@@ -17,7 +21,6 @@ This project includes different parts and levels of access that I will mention h
       the purchased product will be added to his library. It is also placed in the community of that product and he can see other users who have bought that product and Send them a friend request.
       This request is saved in the other party's inbox. Also, the user who applied can be informed about the latest status of his request. If the opposite user accepts the request, the two will become friends.
       firends can see their purchased products and even share their money or games.
-
       Each user has a username, password, email, phone number, and ID.
       All these values ​​(except the password) are checked before the final approval and creating a user account so that they are unikue.
       The password is also checked to make sure it is strong, that is, it has upper and lower case letters, numbers, and symbols.
@@ -25,6 +28,8 @@ This project includes different parts and levels of access that I will mention h
       The phone number must also be unikue and in the form of Iranian phone numbers.
       All of this user's personal information can be edited by the user later.
 </li>
+
+
 
 <li>
     **Developer**:
@@ -36,6 +41,8 @@ This project includes different parts and levels of access that I will mention h
       He refers to his own panel to edit his products.
 </li>
 
+
+
 <li>
     **Accessories Seller**:
       Loves money!
@@ -44,6 +51,8 @@ This project includes different parts and levels of access that I will mention h
       Can see its best-selling products.
       Can see the most active users
 </li>
+
+
 
 <li>
     **Admin**:
@@ -55,6 +64,8 @@ This project includes different parts and levels of access that I will mention h
       An amin has only name and password.
 </li>
 
+
+
 <li>
     **Store**:
       Welcome to the store. Here you can see all the products categorized.
@@ -63,25 +74,33 @@ This project includes different parts and levels of access that I will mention h
       To select or view a product, enter its code.
 </li>
 
+
+
 <li>
-    **Game**:
+    **Game** :
       A game has a Name, Description, Genre, Developers, Rating, community, comments, reports, ID, and Price.
 </li>
 
+
+
 <li>
-    **Accessories**:
+    **Accessories** :
       An accessory has different types: gamepad, gaming chair, and monitor.
       A **gamepad** has a name, ID, communication port, supported operating systems, inventory, price, community, comments, ratings, and seller.
-      A **gaming chair** has a name, ID, height, color, price, inventory, community, comments, ratings, and seller.
+      A **gaming** chair** has a name, ID, height, color, price, inventory, community, comments, ratings, and seller.
       A **monitor** has a name, id, dimensions (in inches), refresh rate (in hertz), price, inventory, community, comments, ratings, and seller.
 </li>
 
+
+
 <li>
     # Attention
+   
       ```
       : (input string)
       >> back/Choice/...
       ```
+.
       Whenever you see ":" before the pointer, the program receives an input string from you and you cannot use commands or go back.
       But when you see ">>", the program is waiting for your commands.
 </li>
